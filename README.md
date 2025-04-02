@@ -5,6 +5,8 @@
 *Finalmente, se revisa el Plan Nacional de Atribución de Frecuencias (PNAF) en Costa Rica, el cual regula el uso del espectro radioeléctrico y define categorías de asignación de frecuencias según su aplicación. Esta regulación es fundamental para garantizar el correcto funcionamiento de los sistemas de comunicación inalámbrica en el país.*
 
 
+# Estado del Arte
+
 ## ¿Qué es APRS?
 
 Un Sistema Automático Reporte de Paquetes (APRS) es una comunicación bidireccional digital en tiempo real entre todos los miembros de una red compartiendo información. Esto implica que cualquier cosa de "valor" en el área local va a ser capturada por el dispositivo APRS, y al mismo tiempo, este también estará enviando información de "valor" a la red [1].
@@ -54,7 +56,14 @@ El **Plan Nacional de Atribución de Frecuencias (PNAF)** es un instrumento que 
 - **Uso para seguridad, socorro y emergencia**: Para radionavegación, seguridad aeronáutica, marítima y otros servicios de ayuda.
 - **Uso libre**: No requiere concesión, autorización o permiso, estando sujeto a las características técnicas establecidas en el Adendum VII del PNAF.
 
+# Metodología y organización:
 
-## Referencias
+
+
+# Procedimiento:
+
+
+
+# Referencias
 
 1. APRS Foundation. Automatic Packet Reporting System. Disponible en: https://www.aprs.org/
