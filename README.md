@@ -62,7 +62,28 @@ El **Plan Nacional de Atribución de Frecuencias (PNAF)** es un instrumento que 
 
 # Procedimiento:
 
+Luego de descargar el firmware LoRa Tracker en el fichero tracker_conf.json
+se sustituye, en callsing, NOCALL por el SSID.
 
+<image src="/doc/images/callsing.png" alt="Callsing">
+
+Luego se realizan varios pasos. Primero compilar el programa. 
+
+<image src="/doc/images/compilado.png" alt="Compilado">
+
+El segundo paso consiste en cargar el programa al modulo, y luego 
+cargar la imagen.
+
+<image src="/doc/images/uploadimage.png" alt="upload image">
+
+Luego hay que esperar que el módulo se reinicie; y entonces se debería poder observar
+su callsign en el display.
+
+<image src="/doc/images/loradisplay.jpeg" alt="ESP32 lora display">
+
+Finalmente, se busca el modulo en el mapa LoRa APRS.
+
+<image src="/doc/images/map.png" alt="mapa lora aprs">
 
 # Referencias
 
