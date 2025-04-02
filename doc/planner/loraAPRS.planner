@@ -20,18 +20,18 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Dividir trabajo" note="" work="28800" duration="28800" start="20250318T000000Z" end="20250318T170000Z" work-start="20250318T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="2" name="Documentar Informaci&#xF3;n" note="" work="316800" duration="316800" start="20250318T170000Z" end="20250402T170000Z" work-start="20250319T080000Z" percent-complete="5" priority="1" type="normal" scheduling="fixed-work">
+    <task id="1" name="Dividir trabajo" note="Motivo:&#10;Inicio de reuni&#xF3;n por Zoom para dividir tarea.&#10;&#10;Objetivos generales:&#10;Establecer la organizaci&#xF3;n para realizaci&#xF3;n de projecto.&#10;&#10;Objetivos espec&#xED;ficos:&#10;Definir que tareas deben realizarse.&#10;Definir encargados de las tareas por realizar.&#10;&#10;Presentes:&#10;Hertzel Caballero Rojas&#10;Andr&#xE9;s Rojas Borboza&#10;Justin Corea Masis&#10;&#10;Logros:&#10;Justin se encarga de programa LoRa APRS, documentar programa y retirar el m&#xF3;dulo.&#10;Andr&#xE9;s y Hertzel se encargan de Documentar informaci&#xF3;n y realizar presentaci&#xF3;n." work="28800" duration="28800" start="20250318T000000Z" end="20250318T170000Z" work-start="20250318T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="Documentar Informaci&#xF3;n" note="Informe del proyecto.&#10;Incluye diagramas de Gantt, documentaci&#xF3;n del software, hardware, objetivos, introducci&#xF3;n,&#10;resultados, an&#xE1;lisis de resultados, conclusiones, bibliograf&#xED;a." work="316800" duration="316800" start="20250318T170000Z" end="20250402T170000Z" work-start="20250319T080000Z" percent-complete="5" priority="1" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="1" type="FS"/>
       </predecessors>
     </task>
-    <task id="3" name="Crear presentaci&#xF3;n" note="" work="316800" duration="316800" start="20250318T170000Z" end="20250402T170000Z" work-start="20250319T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="3" name="Crear presentaci&#xF3;n" note="Hacer la presentaci&#xF3;n en power point para presentar el proyecto." work="316800" duration="316800" start="20250318T170000Z" end="20250402T170000Z" work-start="20250319T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="2" type="SS"/>
       </predecessors>
     </task>
-    <task id="4" name="Retirar modulo" note="" work="28800" duration="28800" start="20250321T000000Z" end="20250321T170000Z" work-start="20250321T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+    <task id="4" name="Retirar modulo" note="Motivo:&#10;Retirar hardware de bodega para iniciar proyecto.&#10;&#10;Objetivos:&#10;Conseguir el hardware necesario para programar LoRa APRS.&#10;&#10;Presentes:&#10;Justin Corea Masis&#10;&#10;Logros:&#10;Se retir&#xF3; el hardware de bodega, se obtuvo su SSID y el especificaciones de uso. " work="28800" duration="28800" start="20250321T000000Z" end="20250321T170000Z" work-start="20250321T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20250321T000000Z"/>
     </task>
     <task id="5" name="Programar Tracker" note="" work="28800" duration="28800" start="20250325T000000Z" end="20250325T170000Z" work-start="20250325T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
@@ -40,13 +40,13 @@
         <predecessor id="1" predecessor-id="4" type="FS"/>
       </predecessors>
     </task>
-    <task id="6" name="Documentar Programa" note="" work="28800" duration="28800" start="20250325T000000Z" end="20250325T170000Z" work-start="20250325T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+    <task id="6" name="Documentar Programa" note="Motivo:&#10;Deseo de guardar informaci&#xF3;n de trabajo realizado en programaci&#xF3;n de hardware, para documentar informes.&#10;&#10;Objetivos generales:&#10;Documentar el trabajo realizado en programaci&#xF3;n.&#10;&#10;Objetivos espec&#xED;ficos:&#10;Tomar capturas de images de pasos realizados.&#10;&#10;Presentes:&#10;Justin Corea Masis&#10;&#10;Logros:&#10;Se document&#xF3; todo el procesos desde programaci&#xF3;n del m&#xF3;dulo hasta carga de imagen al modulo para visualizar en mapas APRS." work="28800" duration="28800" start="20250325T000000Z" end="20250325T170000Z" work-start="20250325T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20250325T000000Z"/>
       <predecessors>
         <predecessor id="1" predecessor-id="5" type="SS"/>
       </predecessors>
     </task>
-    <task id="7" name="Reuni&#xF3;n de prueba" note="" work="28800" duration="28800" start="20250401T000000Z" end="20250401T170000Z" work-start="20250401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="7" name="Reuni&#xF3;n de prueba" note="Motivo:&#10;Corroborar que todo funciona correctamente.&#10;&#10;Objetivos generales:&#10;Estar todos presentes para asegurarnos que el proyecto es funcional y aclarar dudas.&#10;&#10;Objetivos espec&#xED;ficos:&#10;Ejecutar el programa y corrobar su funcionamiento.&#10;Realizar documentaci&#xF3;n final.&#10;&#10;Presentes:&#10;Hertzel Caballero Rojas&#10;Andr&#xE9;s Rojas Borboza&#10;Justin Corea Masis&#10;&#10;Logros:&#10;Se asegur&#xF3; que todo funcion&#xF3; correctamente. Se recopil&#xF3; la &#xFA;ltima informaci&#xF3;n necesaria para finalizar el proyecto." work="28800" duration="28800" start="20250401T000000Z" end="20250401T170000Z" work-start="20250401T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20250401T000000Z"/>
       <predecessors>
         <predecessor id="1" predecessor-id="5" type="FS"/>
