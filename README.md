@@ -62,19 +62,38 @@ El **Plan Nacional de Atribución de Frecuencias (PNAF)** es un instrumento que 
 
 # Procedimiento:
 
-Luego de descargar el firmware LoRa Tracker en el fichero tracker_conf.json
-se sustituye, en callsing, NOCALL por el SSID.
+Luego de descargar el firmware de LoRa APRS Tracker se procede a crear el proyecto.
+Para ello en platform.io (Extensión de VS Code) se inicia un proyecto. Se importa proyecto,
+y luego se selecciona la targeta de desarrollo y la dirección del proyecto (ubicación del firmware); 
+tal como se observa en las siguientes imagenes.
+
+<image src="/doc/images/importproy.png" alt="Import project">
+
+<image src="/doc/images/boardselect.png" alt="Selec board">
+
+Posteriormente, en el fichero tracker_conf.json
+se sustituye, en callsing, NOCALL por el callsign asignado; en nuestro caso TI0IE6.
 
 <image src="/doc/images/callsing.png" alt="Callsing">
 
-Luego se realizan varios pasos. Primero compilar el programa. 
+Luego se realizan varios pasos. Primero compilar el programa. Se presina un botón de esquina inferior izquierda
+y se espera hasta al resultado que se observa en terminal.
+
+<image src="/doc/images/bottoupload.png" alt="Button upload firmware">
+
+<image src="/doc/images/upload.png" alt="Upload">
+
+El segundo paso consiste en cargar el programa al modulo. Se corrobora la carga en terminal.
+
+<image src="/doc/images/bottonCompilar.png" alt="Button Compilado">
 
 <image src="/doc/images/compilado.png" alt="Compilado">
 
-El segundo paso consiste en cargar el programa al modulo, y luego 
-cargar la imagen.
+Finalmente se carga la imagen a la placa de desarrollo.
 
-<image src="/doc/images/uploadimage.png" alt="upload image">
+<image src="/doc/images/buttonUploadImage.png" alt="Button upload image">
+
+<image src="/doc/images/uploadimage.png" alt="Upload image">
 
 Luego hay que esperar que el módulo se reinicie; y entonces se debería poder observar
 su callsign en el display.
