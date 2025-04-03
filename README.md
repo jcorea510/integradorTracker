@@ -83,15 +83,15 @@ se sustituye, en callsing, NOCALL por el callsign asignado; en nuestro caso TI0I
 Luego se realizan varios pasos. Primero compilar el programa. Se presina un botón de esquina inferior izquierda
 y se espera hasta al resultado que se observa en terminal.
 
-<image src="/doc/images/bottoupload.png" alt="Button upload firmware">
+<image src="/doc/images/buttonCompilar.png" alt="Button upload firmware">
 
-<image src="/doc/images/upload.png" alt="Upload">
+<image src="/doc/images/compilado.png" alt="Compilado">
 
 El segundo paso consiste en cargar el programa al modulo. Se corrobora la carga en terminal.
 
-<image src="/doc/images/bottonCompilar.png" alt="Button Compilado">
+<image src="/doc/images/buttonUpload.png" alt="Button Compilado">
 
-<image src="/doc/images/compilado.png" alt="Compilado">
+<image src="/doc/images/upload.png" alt="Upload">
 
 Finalmente se carga la imagen a la placa de desarrollo.
 
