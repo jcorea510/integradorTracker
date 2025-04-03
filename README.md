@@ -58,7 +58,11 @@ El **Plan Nacional de Atribución de Frecuencias (PNAF)** es un instrumento que 
 
 # Metodología y organización:
 
+Usando el software planner se creo un diagrama de Gantt con las principales tareas
+y sus conexiones. Como estrategía de comunicación se usó Whatsapp y para documentar
+el trabajo se usó Github.
 
+<image src="/doc/images/diagramaGantt.jpg" alt="Diagrama gantt">
 
 # Procedimiento:
 
