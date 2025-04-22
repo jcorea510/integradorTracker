@@ -14,7 +14,7 @@
          ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
          ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 
-                       Ricardo Guzman - CA2RXU 
+                       Grupo 06 - CA2RXU 
           https://github.com/richonguzman/LoRa_APRS_Tracker
              (donations : http://paypal.me/richonguzman)
 ____________________________________________________________________*/

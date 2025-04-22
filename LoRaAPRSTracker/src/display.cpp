@@ -599,7 +599,7 @@ void startupScreen(uint8_t index, const String& version) {
         case 2: workingFreq += "UK]"; break;
     }
     displayShow(" LoRa APRS", "      (TRACKER)", workingFreq, "", "", "  CA2RXU  " + version, 4000);
-    logger.log(logging::LoggerLevel::LOGGER_LEVEL_INFO, "Main", "RichonGuzman (CA2RXU) --> LoRa APRS Tracker/Station");
+    logger.log(logging::LoggerLevel::LOGGER_LEVEL_INFO, "Main", "GR06 (CA2RXU) --> LoRa APRS Tracker/Station");
     logger.log(logging::LoggerLevel::LOGGER_LEVEL_INFO, "Main", "Version: %s", version);
 }
 
