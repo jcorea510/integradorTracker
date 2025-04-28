@@ -38,12 +38,12 @@
 \renewcommand{\figurename}{Fig.} 
 
 \author{
-\IEEEauthorblockN{...}
+\IEEEauthorblockN{Justin Corea Masis}
 \IEEEauthorblockA{\textit{Tecnológico de Costa Rica} \\
 \textit{Escuela de Ingeniería Electrónica}\\
 Sede Cartago \\
-...@estudiantec.cr \\
-...\\}
+coreajustin288@estudiantec.cr \\
+2020045294\\}
 
 \and
 
@@ -222,11 +222,18 @@ El diseño de la red LoRa para aplicaciones en zonas agrícolas incluye múltipl
     \item \textbf{Sección de software:} El diseño del software se segmenta en tres partes, dependiendo del tipo de microcontrolador y del almacenamiento en la nube. Los microcontroladores Heltec LoRa y ATmega2560 utilizan el entorno de desarrollo Arduino IDE. La Raspberry Pi opera con el sistema operativo Raspbian. Para la gestión de la red LoRaWAN, se utiliza ChirpStack, una plataforma de código abierto. Adicionalmente, se emplea Grafana como panel de control gráfico para la visualización y análisis de los datos ambientales.
 \end{enumerate}
 
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.6\linewidth]{Imagenes/redLora.png}
+    \caption{Red LoRa}
+    \label{fig:lora_network}
+\end{figure}
+
 \section{\textbf{Implementación}}
 
 \vspace{2mm}
 
-Con el objetivo de monitorear de forma eficaz la migración y el comportamiento de animales en peligro de extinción, se ha desarrollado un sistema de rastreo robusto y energéticamente eficiente. Esta solución integra tecnologías como GPS, LoRa y el protocolo APRS, permitiendo la transmisión en tiempo real de datos de posición, velocidad y temperatura. En la Fig.~\ref{fig:tracker_diagram} se muestra el diagrama de bloques que representa los principales componentes del sistema de rastreo, diseñado para funcionar de manera autónoma en entornos remotos y de difícil acceso. Esta implementación se basa en la aplicada en el ejemplo \cite{paper}.
+Con el objetivo de monitorear de forma eficaz la migración y el comportamiento de animales en peligro de extinción, se ha desarrollado un sistema de rastreo robusto y energéticamente eficiente. Esta solución integra tecnologías como GPS, LoRa y el protocolo APRS, permitiendo la transmisión en tiempo real de datos de posición, velocidad y temperatura. En la Fig. \ref{fig:tracker} se muestra el diagrama de bloques que representa los principales componentes del sistema de rastreo, diseñado para funcionar de manera autónoma en entornos remotos y de difícil acceso. Esta implementación se basa en la aplicada en el ejemplo \cite{paper}.
 
 \vspace{2mm}
 
@@ -269,6 +276,36 @@ El microcontrolador ESP32 actúa como el núcleo del sistema. Integra funciones 
 
 Este componente es el encargado de la comunicación del sistema mediante tecnología LoRa. Incluye mecanismos de modulación y codificación que refuerzan la integridad de los datos ante interferencias, sincronización de paquetes para asegurar el orden correcto de transmisión, y un módulo transmisor que envía la información recolectada a través de una antena. Todo esto se realiza con un consumo energético mínimo, ideal para entornos con escasa infraestructura.
 
+\section{\textbf{Anexos}}
+
+\subsection{Horas trabajadas}
+
+El costo de una hora ingeniero en Costa Rica es aproximadamente 3700 colones.
+
+\begin{center}
+\begin{tabular} {| c | c | c | c |}
+	\hline
+	Integrates & Horas & Costo/h & Costo Total \\
+	\hline
+	Caballero Rojas Hertzel & 8 & 3700 & 29600 \\
+	Corea Masis Justin & 5 & 3700 & 18500 \\
+	Rojas Borboza André & 7 & 3700 & 25900 \\
+	Total & 20 & 11100 & 74000 \\
+	\hline
+\end{tabular}
+\end{center}
+
+\subsection{Materiales}
+\begin{center}
+\begin{tabular} {| c | c | c | c |}
+	\hline
+	Equipo & Cantidad & Costo/U & Costo Total\\
+	\hline
+	TTGO T-BEAM v1.2 & 2 & 18.500 & 37000 \\
+	Total & 2 & 18.500 & 37000 \\
+	\hline
+\end{tabular}
+\end{center}
 
 \newpage
 
